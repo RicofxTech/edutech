@@ -803,3 +803,139 @@ of the footer section *********************************************/
 }
 
 }*/
+
+
+
+/* # # # # # # # # # 
+Community Page CSS Starts here
+# # # # # # # # #  */
+.comm-head1 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.8px;
+  text-align: left;
+
+}      
+
+.comm-head2 {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43.2px;
+  text-align: left;
+  color: #141E61;
+
+}
+
+.comm-para {
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30.6px;
+  text-align: left;  
+}
+
+
+/* # # # # # # # # # 
+Cart Page CSS Starts here
+# # # # # # # # #  */
+
+.cart-page {
+  display: flex;
+  flex-direction: column;
+  background-color: skyblue;
+  margin: 0px;
+  padding: 0px;
+}
+
+.logo {
+  height:80px;
+  width: 763pm;
+}
+
+.cart-content {
+  display: flex;
+  flex-direction: row;
+  background-color: pink;
+  justify-content: space-between;
+}
+.shopping-list {
+  display: flex;
+  direction: column;
+}
+
+.cart-left {
+  display: flex;
+  flex-direction: row;
+  width: 55%;
+  height: 205px;
+  padding: 25px 16px 25px 16px;
+  gap: 12px;
+  border: 1px 0px 1px 0px;
+  background-color: yellow;
+  margin-left: 120px;
+  }
+
+.cart-item {
+  display: block;
+  padding: 25px 16px 25px 16px;
+  gap: 12px;
+  border: 1px 0px 1px 0px;
+  opacity: 0px;
+}
+
+.cart-details, .course-heading, .lecturer-name, .course-price {
+  margin: 0px;
+}
+
+.image-item {
+  width: 213px;
+  height: 155px;
+}
+
+.remove-link {
+  display: flex;
+
+}
+.cart-right {
+  width: 400px;
+  height: 384px;
+  top: 225px;
+  left: 890px;
+  padding: 48px 24px 48px 24px;
+  gap: 10px;
+  border-style: solid;
+  border-color: #8D8D8D;
+  border-radius: 24px;
+  border: 0.5px;
+  background-color: grey;
+  margin-right: 150px;
+ }
+
+.price-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  }
+
+  .price-text {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+.line_6 {
+  width: 100%;
+}
+
+  .checkout-btn {
+    width: 352px;
+    height: 48px;
+    padding: 12px 32px 12px 32px;
+    gap: 10px;
+    border-radius: 30px;
+    background-color:  #141E61;
+    color: white;
+  }
