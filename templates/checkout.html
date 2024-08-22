@@ -26,16 +26,50 @@
             </div>
         </div>
 
-        <div class="cart-title">
-            <h1>Shopping Cart</h1>
-            <h6>2 Courses in Cart</h6>
-        </div>        
+        <div class="checkout-title">
+            <div class="title1">
+                <h1>Checkout</h1>
+                <h6>Payment Method</h6>
+            </div>
+
+            <div class="title2">
+                <h1>Summary</h1>
+            </div>
+        </div>
+        
 
         <!-- Entire body of the webpage -->
         <div class= "cart-content">
 
             <!--The individual list of items-->
             <div class="shopping-list">
+
+                <div class="payment_option">
+                    <div class="credit_card_div">
+                        <div class="credit_card_left">
+                            <label class="radio-inline">
+                                <input type="radio" class="radio_opt">
+                            </label>
+                            <img src="../core/static/core/img/icons/ph_credit-card-light.png" alt="card_image">
+                            <p>credit/debit card</p>
+                        </div>
+        
+                        <div class="credit_card_right">
+                            <img src="../core/static/core/img/icons/mastercard.png" alt="mastercard logo">
+                            <img src="../core/static/core/img/icons/visa.png" alt="visa logo">
+                        </div>
+                    </div>
+        
+                    <img class="line_6" src="../core/static/core/img/icons/Line_6.png" alt="horizontal line" style="margin: 0px;">
+        
+                    <div class="paypal_opt">
+                        <label class="radio-inline">
+                            <input type="radio" class="radio_opt">
+                        </label>
+                        <img src="../core/static/core/img/icons/logos_paypal.png" alt="paypal logo">
+                        <p>Paypal</p>
+                    </div>
+                </div>
             
                 <!-- The chosen course or item -->
                 <div class="cart-left">
@@ -83,6 +117,7 @@
        
 
             <div class="cart-right">
+                
                 <div class="price-details">
                     <p class="price-text"> Subtotal</p>
                     <p class="price-text"> N5000.00</p>
@@ -103,7 +138,7 @@
                 </div> 
                 <img class="line_6" src="../core/static/core/img/icons/Line_6.png" alt="horizontal line">
 
-                <button class="checkout-btn">Proceed to Checkout</button>
+                <button class="checkout-btn">Complete Checkout</button>
                 
             </div>
 
